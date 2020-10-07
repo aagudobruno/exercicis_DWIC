@@ -149,14 +149,14 @@ body {
     position: relative;
 }
 
-#dowiFooter {
+#footerDowi {
     position: absolute; /*no entenc perque no funciona*/
     bottom: 0px;
     right: 0px;
 }
 
-#correuFooter {
-    
+#footerCorreu {
+    position: absolute;
     top: 0px;
     left: 0px;
 }
