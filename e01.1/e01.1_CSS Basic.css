@@ -129,7 +129,8 @@ body {
 }
 
 #images img {
-    margin-top: 0 auto; /*no sabia on possar el horizontal align*/
+    margin: 0 auto; /*no sabia on possar el horizontal align i quan
+                    faig zoom es demonta*/
     width: 243px;
     height: 230px;
 }
@@ -139,4 +140,23 @@ body {
     font-weight: bold;
     font-size: 20px;
     width: 242px;    
+}
+
+#footer {
+    height: 100px;
+    background-color: #210439;
+    color: white;
+    position: relative;
+}
+
+#dowiFooter {
+    position: absolute; /*no entenc perque no funciona*/
+    bottom: 0px;
+    right: 0px;
+}
+
+#correuFooter {
+    
+    top: 0px;
+    left: 0px;
 }
