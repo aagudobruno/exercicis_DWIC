@@ -3,33 +3,77 @@ body {
     font-size: 13px;
 }
 
-#header {
+.disposicio {
     margin: 0 auto;
-    width: 1000px;   
+    width: 1000px;
+    border: dashed;
+}
+
+
+#header {  
+    box-sizing: border-box;
     height: 120px;
     background-image: url("imatges/logo.png");
     background-repeat: no-repeat;
     background-position: left;
-    background-size: 30%;
+    background-size: 20%;
     position: relative;
 }
 
 #headerTitle {
-    width: 70%;
+    width: 80%;
     height: 120px;
     text-align: center;
     color: white;
     background-color: #210439;
     position: absolute;
-    left: 31%;
+    left: 20%;
     overflow: hidden;
 }
 
 #headerTitle h1 {
-    padding-top: 25px;
     font-size: 200%;
 }
 
 #headerTitle h2 {
     font-size: 13px;
+}
+
+#menu {
+    box-sizing: border-box;
+    height: 50px;
+}
+
+#menu ul { 
+    padding-left: 0px;
+}
+
+#menu li {
+    display: inline;
+    background-color: #9376ac;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 130%;
+}
+
+#pattern {
+    box-sizing: border-box;
+    background-image: url("imatges/pattern.jpg");
+    height: 100px;
+}
+
+#centralImg {
+    box-sizing: border-box;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+#centralImg img {
+    width: 100%;
+    position: absolute;
+    top: -135px;
 }
