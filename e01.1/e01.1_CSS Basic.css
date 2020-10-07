@@ -7,6 +7,7 @@ body {
     margin: 0 auto;
     width: 1000px;
     border: dashed;
+    box-sizing: border-box;
 }
 
 
@@ -76,4 +77,66 @@ body {
     width: 100%;
     position: absolute;
     top: -135px;
+}
+
+#grades {
+    background-color: #dcdcdc;
+    height: 250px;
+    text-align: center;
+}
+
+#grades h3 {
+    margin-top: 40px;
+    /*font weight bold no funciona*/
+    text-decoration: underline;
+}
+
+#grades table {
+    margin: 0 auto;
+    border: 2px solid #b9b9b9 ;
+    border-collapse: collapse;
+}
+
+#grades td {
+    width: 150px;
+    height: 25px;
+}
+
+#titolTabl {
+    background-color: #704c8f;
+    border-bottom: 4px solid black;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.grisTabl {
+    background-color: #808080;
+}
+
+#images {
+    height: 300px; 
+}
+
+#images ul {
+    margin-top: 0px;
+    box-sizing: border-box;
+    padding-left: 0px;
+}
+
+#images li{
+    display: inline-block;
+    border-right: 1px solid black ;
+}
+
+#images img {
+    margin-top: 0 auto; /*no sabia on possar el horizontal align*/
+    width: 243px;
+    height: 230px;
+}
+
+#images p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    width: 242px;    
 }
