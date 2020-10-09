@@ -1,0 +1,61 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+}
+
+header {
+    position: relative; 
+    background-color: #9acd32;
+    height: 150px;    
+}
+
+header img {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+
+}
+
+ul#menu {
+    position: absolute;
+    left: 350px;
+    top: 55px;
+}
+
+ul#menu li {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+}
+
+div {
+    position: absolute;
+    border: 2px solid green;
+    top: 250px;
+    left: 30px;
+    max-width: 700;
+}
+
+div h1 {
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    top: 200px;
+    left: 400px;
+}
+
+#scissors {
+    position: relative;
+    bottom: 165px;
+    right: 70px;
+}
+
+#model {
+    position: relative;
+    z-index: 1;
+}
